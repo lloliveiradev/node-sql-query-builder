@@ -1,0 +1,13 @@
+{
+    "code-runner.executorMap": {
+        "typescript": "npx tsx",
+        "javascript": "npx jest"
+    },
+    "jest.jestCommandLine": "npx jest",
+    "jest.autoRun": {
+        "watch": true,
+        "onStartup": [
+            "all-tests"
+        ]
+    }
+}
