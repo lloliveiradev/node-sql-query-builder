@@ -14,6 +14,26 @@ A dynamic, secure, and flexible SQL query builder for Node.js, written in TypeSc
 - 🧪 Complete unit tests
 - 📦 Zero external dependencies
 
+## 📁 Project Structure
+
+```
+node-sql-query-builder/
+├── src/                    # Source code
+│   ├── index.ts           # Main entry point and exports
+│   ├── sqlOperation.ts    # Core SQL query building logic
+│   ├── sqlOperation.test.ts # Unit tests
+│   └── types.ts           # TypeScript type definitions
+├── dist/                  # Compiled JavaScript files
+├── .vscode/              # VS Code configuration
+├── node_modules/         # Project dependencies
+├── package.json          # Project configuration and dependencies
+├── package-lock.json     # Locked dependencies versions
+├── tsconfig.json         # TypeScript configuration
+├── jest.config.js        # Jest test configuration
+├── .gitignore           # Git ignore rules
+└── README.md            # Project documentation
+```
+
 ## 🚀 Installation
 
 ```bash
